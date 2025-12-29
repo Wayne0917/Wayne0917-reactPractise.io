@@ -29,3 +29,10 @@ src/
 ├── main.jsx             # 渲染進入點
 └── index.css            # 全域自定義樣式
 
+## 📦 專案執行方式
+
+1. Clone 專案
+
+   ```bash
+   git clone https://github.com/Wayne0917/Wayne0917-project-wowoFurniture.io.git
+   ```
