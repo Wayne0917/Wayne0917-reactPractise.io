@@ -28,7 +28,4 @@ src/
 ├── App.jsx              # 父元件 (管理核心 State)
 ├── main.jsx             # 渲染進入點
 └── index.css            # 全域自定義樣式
-## ⚙️ 如何在本地運行
-1. **複製儲存庫**
-   ```bash
-   git clone [https://github.com/Wayne0917/Wayne0917-reactPractise.io.git](https://github.com/Wayne0917/Wayne0917-reactPractise.io.git)
+
