@@ -1,16 +1,44 @@
-# React + Vite
+🚀 React 產品列表實作 (Vite 版)
+這是一個使用 React 19 與 Vite 開發的產品清單展示專案。主要練習 React 的狀態管理、Props 傳遞以及元件化開發（Component-Based Architecture）。
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🔗 作品連結
+點此查看 Demo
 
-Currently, two official plugins are available:
+✨ 核心功能
+產品清單渲染：透過 map 處理陣列資料，呈現美觀的 Bootstrap 表格。
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+元件化開發：
 
-## React Compiler
+ProductList：獨立封裝左側列表邏輯。
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+ProductDetail：獨立封裝右側詳細資訊展示。
 
-## Expanding the ESLint configuration
+狀態管理：使用 useState 控制當前選中的產品資訊，實現即時切換細節。
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+響應式設計：採用 Bootstrap 5 確保在不同裝置上皆有良好的顯示效果。
+
+🛠 使用技術
+框架：React 19
+
+建構工具：Vite
+
+樣式：Bootstrap 5
+
+部署：GitHub Pages
+
+⚙️ 如何在本地運行
+複製儲存庫
+
+Bash
+
+git clone https://github.com/Wayne0917/Wayne0917-reactPractise.io.git
+安裝依賴
+
+Bash
+
+npm install
+啟動開發伺服器
+
+Bash
+
+npm run dev
