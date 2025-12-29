@@ -28,6 +28,7 @@ src/
 ├── App.jsx              # 父元件 (管理核心 State)
 ├── main.jsx             # 渲染進入點
 └── index.css            # 全域自定義樣式
+```
 
 ## 📦 專案執行方式
 
@@ -36,3 +37,14 @@ src/
    ```bash
    git clone https://github.com/Wayne0917/Wayne0917-project-wowoFurniture.io.git
    ```
+2. 安裝必要套件
+   
+   ```bash
+   npm install
+   ```
+4. 安裝必要套件
+
+   ```bash
+   npm run dev
+   ```
+   
